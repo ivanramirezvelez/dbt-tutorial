@@ -1,0 +1,6 @@
+semantic_models:
+  - name: orders
+    description: La descripción del modelo semántico.
+    defaults:
+      agg_time_dimension: order_date #aquí va el nombre de una dimensión, solamente aplica si hay MEASURES
+    model: ref('sat_orders_master')
